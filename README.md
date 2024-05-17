@@ -20,7 +20,7 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 ## Start Coding in Script Pane
 - Click the Show Script Pane Top icon 
 - Type the first block of code as seen in the image below or
-- from the file Fim.ps1: https://github.com/LawEsan/PowerShell-FIM/blob/main/Fim.ps1
+- Copy & paste from this file Fim.ps1: https://github.com/LawEsan/PowerShell-FIM/blob/main/Fim.ps1
 - Note: Remember to constantly test code by clicking the “Run Script” icon on the menu pane to ensure script is working free of any errors
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53726731822/in/dateposted/" title="1st code block"><img src="https://live.staticflickr.com/65535/53726731822_80683edf47_c.jpg" width="800" height="410" alt="1st code block"/></a>

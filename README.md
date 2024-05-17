@@ -19,7 +19,8 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 
 ## Start Coding in Script Pane
 - Click the Show Script Pane Top icon 
-- Type the first block of code as seen in the image below or from the file Fim.ps1: https://github.com/LawEsan/PowerShell-FIM/blob/main/Fim.ps1
+- Type the first block of code as seen in the image below or
+   - from the file Fim.ps1: https://github.com/LawEsan/PowerShell-FIM/blob/main/Fim.ps1
 - Note: Remember to constantly test code by clicking the “Run Script” icon on the menu pane to ensure script is working free of any errors
 
 ! 1st code block

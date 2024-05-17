@@ -8,19 +8,19 @@ At the core of this initiative lies the implementation of file hashing—a techn
 Critical to the FIM's functionality is its ability to detect even the slightest alterations within files. When changes occur, the corresponding hash undergoes modification, triggering the FIM to promptly alert stakeholders. This proactive approach ensures that data integrity remains uncompromised, bolstering the overall security posture of the organisation.
 
 ## Create script in PowerShell 
-    - Open PowerShell app and Run ISE as Administrator 
-    - To remove any current restricted policy type the command: Set-ExecutionPolicy RemoteSigned → press enter key
-    - Note: This will enable you to run PowerShell scripts from untrusted sources on your system
-    - Note: -eq means equals to
-    - Note Write-Host “” is to create a new line break
-    - Save your script as “Fim.ps1” and save it to the Desktop on your PC. 
-    - Open File Explorer and create a folder within the Desktop called “FIM”. Move Fim.ps1 into the FIM folder
-    - Note: The aim is to collect all files in the directory (FIM) we want to monitor
+- Open PowerShell app and Run ISE as Administrator 
+- To remove any current restricted policy type the command: Set-ExecutionPolicy RemoteSigned → press enter key
+- Note: This will enable you to run PowerShell scripts from untrusted sources on your system
+        - Note: -eq means equals to
+        - Note Write-Host “” is to create a new line break
+        - Save your script as “Fim.ps1” and save it to the Desktop on your PC. 
+        - Open File Explorer and create a folder within the Desktop called “FIM”. Move Fim.ps1 into the FIM folder
+        - Note: The aim is to collect all files in the directory (FIM) we want to monitor
 
 ## Start Coding in Script Pane
 - Click the Show Script Pane Top icon 
 - Type the first block of code as seen in the image below or
-   - from the file Fim.ps1: https://github.com/LawEsan/PowerShell-FIM/blob/main/Fim.ps1
+- from the file Fim.ps1: https://github.com/LawEsan/PowerShell-FIM/blob/main/Fim.ps1
 - Note: Remember to constantly test code by clicking the “Run Script” icon on the menu pane to ensure script is working free of any errors
 
 ! 1st code block

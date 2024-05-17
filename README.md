@@ -94,8 +94,10 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 
 ## Create an array to store each file 
 - The “0” element of the array is the file path and the “1” is the hash
-- When the script is run with the element “0” all file paths will t will be printed to screen. When the “0” is changed to a “1”  
+- When the script is run with the element “0” all file paths will t will be printed to screen. When the “0” is changed to a “1”
+  
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53726731787/in/datetaken/" title="Create array"><img src="https://live.staticflickr.com/65535/53726731787_fb50d12eb3_c.jpg" width="800" height="412" alt="Create array"/></a>
+
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53726731777/in/datetaken/" title="Create array2"><img src="https://live.staticflickr.com/65535/53726731777_c782e878c2_c.jpg" width="800" height="412" alt="Create array2"/></a>
 

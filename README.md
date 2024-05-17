@@ -54,7 +54,7 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 - Run the $files variable only → This will gather all four .txt files and print screen to console
 - Delete $files 
 
-!Gather all files
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53726731662/in/datetaken/" title="Gather all files"><img src="https://live.staticflickr.com/65535/53726731662_0918c32e3b_c.jpg" width="800" height="410" alt="Gather all files"/></a>
 
 ## Get the Hash’s of all files
 - Use the $files variable in a foreach loop
@@ -90,7 +90,7 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 - As there are multiple files, create a variable called $f in a foreach loop.
 - Run the script to test the $filePathsAndHashes variable is working
 
-!Paths and Hashes
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53727848628/in/datetaken/" title="Paths and Hashes"><img src="https://live.staticflickr.com/65535/53727848628_fbcb3b2ee5_c.jpg" width="800" height="412" alt="Paths and Hashes"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 ## Create an array to store each file 
 - The “0” element of the array is the file path and the “1” is the hash
@@ -142,7 +142,7 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 ## Create function to notify if a file has been deleted
 - Create a foreach variable which will list all the file paths in the dictionary
 
-! Foreach key
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53727637996/in/datetaken/" title="Foreach key"><img src="https://live.staticflickr.com/65535/53727637996_841fd486e4_c.jpg" width="800" height="410" alt="Foreach key"/></a>
 
 - The file path we are checking still exists ($baselineFileStillExists) must be set to the variable $key. This is to verify if a file still exists in the dictionary
 - Create an if NOT condition meaning if the file does NOT exist, notify the user

@@ -33,7 +33,7 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 - Run only the function code block. To do this, highlight the function code only and click the Run Selection icon.
 - The a.txt file Hash will print to screen
 
-!new function
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53727981374/in/datetaken/" title="new function"><img src="https://live.staticflickr.com/65535/53727981374_bb6e06e9b0_c.jpg" width="800" height="413" alt="new function"/></a>
 
 ## Store Hash in a Variable
 - Instead of printing the hash to screen, store it in a variable by following these steps:
@@ -43,7 +43,7 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 - The Hash will print to screen
 - You can now delete the line of code $hash = Calculate-File-Hash “insert path to file here”
 
-!CALCULATE FILE HASH1
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53727638096/in/datetaken/" title="Calculate File Hash1"><img src="https://live.staticflickr.com/65535/53727638096_3755c33f74_c.jpg" width="800" height="411" alt="Calculate File Hash1"/></a>
 
 ## Gather all the files in the directory to monitor them
 - You are going to gather all the hashes of the four .txt files  and store them in a single .txt file that has the path and file hash with it.
@@ -65,44 +65,45 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 - Make “Calculate-File-Hash $f.FullName” a variable by typing “$hash =“ before it
 - Run the code like the image below so that the file path and hash are displayed 
 
-!file path  hash
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53727638051/in/datetaken/" title="file path + hash"><img src="https://live.staticflickr.com/65535/53727638051_fc6d7ffe5c_c.jpg" width="800" height="413" alt="file path + hash"/></a>
 
 ## Create baseline.txt file with all file paths and hashes inside
 
-!Create baseline.txt
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53726731752/in/datetaken/" title="create baseline.txt"><img src="https://live.staticflickr.com/65535/53726731752_1dedc51c23_c.jpg" width="800" height="411" alt="create baseline.txt"/></a>
 
 ## Error handling 
 - The problem now is that every time the script is run, the baseline will continue to unnecessarily add the same files that already exist in the folder.
 - To prevent this, create a new Function in the beginning of the script that will delete the baseline.txt if it already exists.
 - Run the script to test it works OK
 
-!Error handling
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53727638061/in/datetaken/" title="Error handling"><img src="https://live.staticflickr.com/65535/53727638061_1cfd1d2ebc_c.jpg" width="800" height="410" alt="Error handling"/></a>
 
 ## Begin monitoring files with saved Basedline.txt
 - Load the file hash pairs from baseline.txt and store them in a dictionary
 - Note: The dictionary is going to hold the file path and corresponding hash 
 - Create the dictionary by typing code as seen in the image below
 
-!Create dictionary
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53728081230/in/datetaken/" title="Create dictionary"><img src="https://live.staticflickr.com/65535/53728081230_d46085be75_c.jpg" width="800" height="412" alt="Create dictionary"/></a>
 
 ## Create variable $filePathsAndHashes to store content
 - All the content (file path + hash) from the baseline.txt file must be stored in a variable $filePathsAndHashes
 - As there are multiple files, create a variable called $f in a foreach loop.
 - Run the script to test the $filePathsAndHashes variable is working
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53727848628/in/datetaken/" title="Paths and Hashes"><img src="https://live.staticflickr.com/65535/53727848628_fbcb3b2ee5_c.jpg" width="800" height="412" alt="Paths and Hashes"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53727848628/in/datetaken/" title="Paths and Hashes"><img src="https://live.staticflickr.com/65535/53727848628_fbcb3b2ee5_c.jpg" width="800" height="412" alt="Paths and Hashes"/></a>
 
 ## Create an array to store each file 
 - The “0” element of the array is the file path and the “1” is the hash
 - When the script is run with the element “0” all file paths will t will be printed to screen. When the “0” is changed to a “1”  
-!Create Array
-!Create Array2
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53726731787/in/datetaken/" title="Create array"><img src="https://live.staticflickr.com/65535/53726731787_fb50d12eb3_c.jpg" width="800" height="412" alt="Create array"/></a>
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53726731777/in/datetaken/" title="Create array2"><img src="https://live.staticflickr.com/65535/53726731777_c782e878c2_c.jpg" width="800" height="412" alt="Create array2"/></a>
 
 ## Create infinite while loop 
 - The while loop will check if any file has been modified
 - Add a delay of one second so that the loop does not run too fast
 
-!Infinite loop
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53727981379/in/datetaken/" title="Infinite loop"><img src="https://live.staticflickr.com/65535/53727981379_cdc008314b_c.jpg" width="800" height="411" alt="Infinite loop"/></a>
 
 ## Calculate file hash and check within dictionary if the hash exists
 - This code in the image below will get all files and put them in the $files variable. For each file the file hash will be calculated and that hash will be compared to what is in the dictionary (baseline.txt).
@@ -114,7 +115,7 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 - Create a new file called “e.txt” to test if script is working as a message that a new file has been created should appear in the console
 - Delete “e.txt” and this should stopped the console from looping
 
-!New file created e.txt copy
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53727848638/in/datetaken/" title="New file created e.txt"><img src="https://live.staticflickr.com/65535/53727848638_8f940183dc_c.jpg" width="800" height="412" alt="New file created e.txt"/></a>
 
 ## Notify if a new file has been changed
 - Add the if and else conditions to your script as seen in the image below. 
@@ -124,7 +125,7 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 - Delete the extra text you added then save the d.txt file. This should stop the console from looping.
 - Click Stop Operation icon (the red square)
 
-!File has changed
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53727638056/in/datetaken/" title="File has changed"><img src="https://live.staticflickr.com/65535/53727638056_ef167e75cb_c.jpg" width="800" height="412" alt="File has changed"/></a>
 
 ## Move the if and else conditions code block 
 - Cut the if and else conditions code block
@@ -137,7 +138,7 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 - Modify “d.txt” file and Save → Verify the “file has been changed” alert appears in the console
 - Revert the “d.txt” file to its original state (delete the extra text you added) and Save → Console should stop looping
 
-!# Move the if and else
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53727981389/in/datetaken/" title="Move if and else"><img src="https://live.staticflickr.com/65535/53727981389_194aeeeae9_c.jpg" width="800" height="415" alt="Move if and else"/></a>
 
 ## Create function to notify if a file has been deleted
 - Create a foreach variable which will list all the file paths in the dictionary
@@ -147,7 +148,7 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 - The file path we are checking still exists ($baselineFileStillExists) must be set to the variable $key. This is to verify if a file still exists in the dictionary
 - Create an if NOT condition meaning if the file does NOT exist, notify the user
 
-!File deleted
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53726731742/in/datetaken/" title="File deleted"><img src="https://live.staticflickr.com/65535/53726731742_e6e7877f63_c.jpg" width="800" height="410" alt="File deleted"/></a>
 
 - Cut the code block “One of the baseline files must have been deleted” and paste it in another area so that it is outside the foreach loop
 - Open File Explorer and navigate to the Files folder
@@ -161,7 +162,7 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 - Create a new file called “e.txt” → Verify the “file has been created” alert appears in the console
 - Move “e.txt” out to the Music file directory → Console should stop looping
 
-! Final
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53727638036/in/datetaken/" title="Final"><img src="https://live.staticflickr.com/65535/53727638036_d22503f2b1_c.jpg" width="800" height="412" alt="Final"/></a>
 
 ## Conclusion
 Using PowerShell, I've created an effective File Integrity Monitor (FIM) for this project. It ensures file data remains unchanged or undeleted. If any alterations occur, the FIM promptly raises specific alerts. This proactive approach enhances an IT system's security, addressing evolving threats and maintaining stakeholder trust.

@@ -11,11 +11,11 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 - Open PowerShell app and Run ISE as Administrator 
 - To remove any current restricted policy type the command: Set-ExecutionPolicy RemoteSigned → press enter key
 - Note: This will enable you to run PowerShell scripts from untrusted sources on your system
-        - Note: -eq means equals to
-        - Note Write-Host “” is to create a new line break
-        - Save your script as “Fim.ps1” and save it to the Desktop on your PC. 
-        - Open File Explorer and create a folder within the Desktop called “FIM”. Move Fim.ps1 into the FIM folder
-        - Note: The aim is to collect all files in the directory (FIM) we want to monitor
+- Note: -eq means equals to
+- Note Write-Host “” is to create a new line break
+- Save your script as “Fim.ps1” and save it to the Desktop on your PC. 
+- Open File Explorer and create a folder within the Desktop called “FIM”. Move Fim.ps1 into the FIM folder
+- Note: The aim is to collect all files in the directory (FIM) we want to monitor
 
 ## Start Coding in Script Pane
 - Click the Show Script Pane Top icon 

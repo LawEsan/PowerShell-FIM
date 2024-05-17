@@ -1,11 +1,15 @@
 # Coding a File Integrity Monitor | PowerShell
 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53726783117/in/dateposted/" title="FIM"><img src="https://live.staticflickr.com/65535/53726783117_b0c65302c7_c.jpg" width="800" height="732" alt="FIM"/></a>
+
 ## Introduction
 Ensuring the integrity of data stands as a foundational pillar of the CIA Triad for IT security systems. With this principle in mind, I embarked on a project to develop a File Integrity Monitor (FIM), aimed at reinforcing data integrity across organisational systems.
 
 At the core of this initiative lies the implementation of file hashing—a technique akin to creating digital fingerprints for each file. These hashes serve as immutable identifiers stored within a baseline.txt file, forming a reliable reference point for data integrity verification.
 
 Critical to the FIM's functionality is its ability to detect even the slightest alterations within files. When changes occur, the corresponding hash undergoes modification, triggering the FIM to promptly alert stakeholders. This proactive approach ensures that data integrity remains uncompromised, bolstering the overall security posture of the organisation.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53728033559/in/photostream/" title="FIM Flow Chart"><img src="https://live.staticflickr.com/65535/53728033559_100e3ac165_c.jpg" width="762" height="800" alt="FIM Flow Chart"/></a>
 
 ## Create script in PowerShell 
 - Open PowerShell app and Run ISE as Administrator 

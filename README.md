@@ -60,7 +60,7 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53726731662/in/datetaken/" title="Gather all files"><img src="https://live.staticflickr.com/65535/53726731662_0918c32e3b_c.jpg" width="800" height="410" alt="Gather all files"/></a>
 
-## Get the Hash’s of all files
+## Get the Hashes of all files
 - Use the $files variable in a foreach loop
 - Create the loop with the code in this image
 - Create a $f variable which will represent each .txt file. 

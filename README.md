@@ -171,4 +171,4 @@ Critical to the FIM's functionality is its ability to detect even the slightest 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53727638036/in/datetaken/" title="Final"><img src="https://live.staticflickr.com/65535/53727638036_d22503f2b1_c.jpg" width="800" height="412" alt="Final"/></a>
 
 ## Conclusion
-Using PowerShell, I've created an effective File Integrity Monitor (FIM) for this project. It ensures file data remains unchanged or undeleted. If any alterations occur, the FIM promptly raises specific alerts. This proactive approach enhances an IT system's security, addressing evolving threats and maintaining stakeholder trust.
+Using PowerShell, I have created an effective File Integrity Monitor (FIM) for this project. It ensures file data remains unchanged or undeleted. If any alterations occur, the FIM promptly raises specific alerts. This proactive approach enhances an IT system's security, addressing evolving threats and maintaining stakeholder trust.
